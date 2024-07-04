@@ -28,16 +28,16 @@ a {
 
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
     flex: auto;
+
 }
 
 .hero {
     display: flex;
     background-color: #1F2937;
     padding: 5em 15%;
-    gap: 1em;
-
 }
 
 .hero-content {
@@ -45,14 +45,27 @@ a {
 }
 
 .hero-main {
+    padding-inline-end: 24px;
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
 .hero-secondary {
+    padding-inline-end: 120px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-button {
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    margin-top: 1em;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .placeholder-image {
@@ -66,8 +79,50 @@ a {
 
 }
 
-.content-container {
+.page-content{
     flex-grow: 1;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 96px;
+    gap: 48px;
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 165px;
+    gap: 1em;
+    text-align: center;
+
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+
+}
+
+.blue-box {
+    height: 165px;
+    width: 165px;
+    outline: 3px solid #3882F6;
+    border-radius: 8px;
 }
 
 .footer {
