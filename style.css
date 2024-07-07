@@ -26,6 +26,7 @@ a {
     
 }
 
+.cta-header,
 .header-logo {
     font-size: 24px;
     font-weight: bold;
@@ -66,6 +67,9 @@ a {
     padding: 8px 24px;
     font-size: 16px;
     font-weight: bold;
+
+    text-wrap: nowrap;
+
 }
 
 .placeholder-image {
@@ -92,10 +96,13 @@ a {
     padding-bottom: 100px;
     gap: 48px;
 
-    font-size: 36px;
-    font-weight: 900pc;
-    color: #1F2937;
+    
+}
 
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .box-container {
@@ -159,6 +166,48 @@ a {
     text-align: end;
     padding-right: 2em;
 }
+
+.cta {
+    display: flex;
+    padding: 50px 15%;
+
+    align-items: center;
+
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 4% 8%;
+    border-radius: 8px;
+
+    flex: 1;
+}
+
+.cta-text {
+    flex-grow: 1;
+}
+
+.cta-paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border-radius: 8px;
+
+    border: solid #E5E7EB;
+    color: #E5E7EB;
+
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: bold;
+
+    text-wrap: nowrap;
+}
+
+
 
 .footer {
     text-align: center;
